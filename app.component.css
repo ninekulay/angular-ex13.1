@@ -1,0 +1,12 @@
+.searchbar{
+    width: 30%;
+    text-align: center;
+}
+.floatright{
+    float:right;
+    padding: 2em;
+}
+.floatleft{
+    float:left;
+    padding: 2em;
+}

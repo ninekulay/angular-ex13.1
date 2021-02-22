@@ -1,0 +1,15 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 1em 0 1em 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #1a9921;
+  }
+
+
+
+  

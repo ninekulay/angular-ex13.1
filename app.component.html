@@ -1,0 +1,19 @@
+<header>
+    <app-navbar></app-navbar>
+</header>
+<body>
+    <br>
+        <app-searchbar></app-searchbar>
+        
+    <div style="margin-top:40px">
+        <app-topbanner></app-topbanner>
+    </div>
+    <div class="floatleft">
+        <app-categorymenu></app-categorymenu>
+    </div>
+    <div class="floatleft">
+        <button (click)="condition = !condition">click for show</button>
+        <span *ngIf="condition !== true; " ><app-home [ngClass]="{true:condition,false:!condition}"></app-home></span>    
+    </div>
+
+</body>
