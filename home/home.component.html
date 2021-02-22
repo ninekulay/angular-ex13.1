@@ -1,0 +1,18 @@
+
+<div>
+Input your name : <input [(ngModel)]="description"/>
+<br>
+Welcome : <b> {{description | uppercase}}</b>
+</div>
+<ul>
+    <li *ngFor="let item of fruits">
+        <span *ngIf="item !== '' ">{{item.name}}, price : {{item.price}} THB</span>
+        <button class="buttonmargin" (click)="clickAdd(item)">+</button>
+        <button class="buttonmargin" (click)="clickRemove(item)">-</button>
+       quantity of product {{item.quantity}} pcs. Total price = {{item.quantity * item.price}} thb
+    </li>
+    
+</ul>
+<div>
+    
+    

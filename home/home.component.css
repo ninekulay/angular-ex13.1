@@ -1,0 +1,14 @@
+.header{
+    color:red;
+}
+.marginzero{
+    margin: 0;
+}
+
+.buttonmargin {
+    margin: 5px 5px;
+}
+.selected {
+    color:white;
+    background-color:red;
+}
